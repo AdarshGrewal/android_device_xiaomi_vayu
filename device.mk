@@ -98,6 +98,8 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
+    ipacm \
+    IPACM_cfg.xml \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf

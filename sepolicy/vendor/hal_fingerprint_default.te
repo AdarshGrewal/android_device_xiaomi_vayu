@@ -1,6 +1,6 @@
 type fingerprint_device, dev_type;
 type fingerprint_data_file, data_file_type, file_type, vendor_persist_type;
-type vendor_fp_prop, property_type;
+vendor_internal_prop(vendor_fp_prop)
 
 allow hal_fingerprint_default fingerprint_data_file:dir rw_dir_perms;
 allow hal_fingerprint_default fingerprint_data_file:file create_file_perms;

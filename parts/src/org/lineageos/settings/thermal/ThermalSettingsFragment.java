@@ -62,6 +62,7 @@ public class ThermalSettingsFragment extends PreferenceFragment
 
     private ThermalUtils mThermalUtils;
 
+
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
     }

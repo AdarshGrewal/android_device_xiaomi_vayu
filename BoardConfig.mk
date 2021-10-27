@@ -10,3 +10,6 @@ DEVICE_PATH := device/xiaomi/vayu
 
 # Inherit from proprietary files
 include vendor/xiaomi/vayu/BoardConfigVendor.mk
+
+# Screen density
+TARGET_SCREEN_DENSITY := 440

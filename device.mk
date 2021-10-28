@@ -20,6 +20,10 @@ PRODUCT_PACKAGES += \
 # API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     fastbootd

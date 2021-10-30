@@ -159,6 +159,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
 
+# Vndservicemanager
+PRODUCT_PACKAGES += \
+    vndservicemanager
+
 # Vulkan
 PRODUCT_PACKAGES += \
     libvulkan

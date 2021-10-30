@@ -51,6 +51,9 @@ PRODUCT_PACKAGES += \
     memtrack.msmnile
 
 PRODUCT_PACKAGES += \
+    disable_configstore
+
+PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@2.0.vendor
 
 # Fastbootd

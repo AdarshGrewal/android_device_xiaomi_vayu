@@ -382,6 +382,9 @@ vendor/etc/camera/visidon_clearshot_params_algoup.xml
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
 
+# Charger
+vendor/bin/hvdcp_opti
+
 # Configstore
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc

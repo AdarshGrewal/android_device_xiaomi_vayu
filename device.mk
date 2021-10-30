@@ -99,6 +99,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
+# RIL
+PRODUCT_PACKAGES += \
+    libjson \
+    libril \
+    librilutils \
+    librmnetctl
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \

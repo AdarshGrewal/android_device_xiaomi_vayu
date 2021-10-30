@@ -93,6 +93,11 @@ vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib64/libadsprpc.so
 
+# Batterysecret
+vendor/bin/batterysecret
+vendor/etc/init/init.batterysecret.rc
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
+
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc

@@ -121,6 +121,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # Vulkan
 PRODUCT_PACKAGES += \
     libvulkan

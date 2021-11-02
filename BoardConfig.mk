@@ -38,3 +38,6 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # Screen density
 TARGET_SCREEN_DENSITY := 440
+
+# VNDK
+BOARD_VNDK_VERSION := current

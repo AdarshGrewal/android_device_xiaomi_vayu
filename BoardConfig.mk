@@ -8,6 +8,8 @@ BOARD_VENDOR := xiaomi
 
 DEVICE_PATH := device/xiaomi/vayu
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Inherit from proprietary files
 include vendor/xiaomi/vayu/BoardConfigVendor.mk
 

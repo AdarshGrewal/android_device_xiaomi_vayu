@@ -75,6 +75,10 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_frame
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
 ODM_MANIFEST_FILES += $(DEVICE_PATH)/configs/hidl/manifest-qva.xml
+ODM_MANIFEST_SKUS += vayu
+ODM_MANIFEST_VAYU_FILES := \
+    $(DEVICE_PATH)/configs/hidl/manifest-qva.xml \
+    $(DEVICE_PATH)/configs/hidl/manifest-nfc.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_vayu

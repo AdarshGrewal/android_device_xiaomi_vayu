@@ -1,0 +1,34 @@
+# Audio
+/dev/socket/audio_hw_socket                                             u:object_r:audio_socket:s0
+
+# Camera
+/mnt/vendor/persist/camera(/.*)?                                        u:object_r:camera_persist_file:s0
+
+# Display
+/dev/xiaomi-touch                                                    u:object_r:touchfeature_device:s0
+
+# Fingerprint
+/dev/goodix_fp                                                          u:object_r:fingerprint_device:s0
+/data/vendor/goodix(/.*)?                                               u:object_r:fingerprint_data_file:s0
+/data/vendor/fpc(/.*)?                                                  u:object_r:fingerprint_data_file:s0
+/data/vendor/fpdump(/.*)?                                               u:object_r:fingerprint_data_file:s0
+
+# HAL
+/vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2.1-service\.vayu                    u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/android\.hardware\.lights-service\.vayu                                         u:object_r:hal_light_default_exec:s0
+
+# IR
+/dev/ir_spi                                                             u:object_r:vendor_ir_device:s0
+
+# LED
+/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm8150l@5:qcom,leds@d000/leds/white(/.*)?        u:object_r:sysfs_leds:s0
+
+# Thermal
+/vendor/bin/mi_thermald                                                 u:object_r:mi_thermald_exec:s0
+/data/vendor/thermal(/.*)?                                              u:object_r:thermal_data_file:s0
+
+# Remosaic
+/vendor/bin/remosaic_daemon                                             u:object_r:remosaic_daemon_exec:s0
+
+# WiFi
+/vendor/bin/nv_mac                                                      u:object_r:vendor_wcnss_service_exec:s0

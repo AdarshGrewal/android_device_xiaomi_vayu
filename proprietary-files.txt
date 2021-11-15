@@ -392,7 +392,7 @@ vendor/etc/camera/morpho_lowlight4.0_adrc_high.xml
 vendor/etc/camera/morpho_lowlight4.0_adrc_high_1.xml
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/seg_quantized.dlc
-vendor/etc/camera/sr_params.xml
+vendor/etc/camera/sr_params.xml|f83901324b80bc1e1af2751e1bb4d95b01977f6e
 vendor/etc/camera/vidhance_calibration
 vendor/etc/camera/visidon_clearshot_params_algoup.xml
 

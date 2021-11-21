@@ -374,7 +374,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Overlays-RRO
 PRODUCT_PACKAGES += \
-    WifiOverlay
+    WifiOverlay \
+    CustomPixelLauncherOverlay
 
 # Telephony
 PRODUCT_PACKAGES += \

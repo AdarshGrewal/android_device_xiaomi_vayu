@@ -1,0 +1,8 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.custom.fwb.overlay">
+    <overlay
+        android:isStatic="true"
+        android:priority="1500"
+        android:targetPackage="android"/>
+    <application android:hasCode="false" android:label="kek1"/>
+</manifest>

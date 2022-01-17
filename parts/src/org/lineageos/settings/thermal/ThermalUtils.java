@@ -19,13 +19,12 @@ package org.lineageos.settings.thermal;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.FileUtils;
 import android.os.UserHandle;
 import android.util.Log;
 
 import androidx.preference.PreferenceManager;
 
-import java.io.IOException;
+import org.lineageos.settings.utils.FileUtils;
 
 public final class ThermalUtils {
 
@@ -135,6 +134,10 @@ public final class ThermalUtils {
         }
 
         return state;
+    }
+
+    protected void setDefaultThermalProfile() {
+        FileUtils.writeLine(THERMAL_SCONFIG, THERMAL_STATE_DEFAULT);
     }
 
     protected void setThermalProfile(String packageName) {

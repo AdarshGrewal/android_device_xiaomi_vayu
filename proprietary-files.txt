@@ -1,3 +1,5 @@
+# All unpinned blobs are extracted from vayu_global-11-RKQ1.200826.002-V12.5.7.0.RJUMIXM-release-keys
+
 # ADSP
 vendor/bin/adsprpcd
 vendor/bin/cdsprpcd

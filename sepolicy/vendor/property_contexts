@@ -23,7 +23,7 @@ ro.carrier.name                                 u:object_r:vendor_public_vendor_
 ro.miui.cust_variant                            u:object_r:vendor_public_vendor_default_prop:s0
 
 # Graphics
-ro.gfx.driver.1                                 u:object_r:exported3_default_prop:s0
+ro.gfx.driver.1                                 u:object_r:graphics_config_prop:s0
 
 # RIL
 ro.vendor.ril                                   u:object_r:vendor_public_vendor_default_prop:s0
